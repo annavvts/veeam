@@ -1,0 +1,52 @@
+@import "variables.css";
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-weight: 400;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+ul {
+   padding-left: 0;
+   margin: 0;
+   list-style: disc;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+b {
+    font-weight: 700;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "blocks/header.css";
+@import "blocks/download.css";
+@import "blocks/overview.css";
+@import "blocks/navigate.css";
+@import "blocks/integration.css";
+@import "blocks/backup.css";
+@import "blocks/recovery.css";
+@import "blocks/about.css";
+@import "blocks/footer.css";

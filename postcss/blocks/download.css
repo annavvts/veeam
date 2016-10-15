@@ -1,0 +1,110 @@
+.download {
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	padding-top: 27px;
+	padding-bottom: 60px;
+
+	.download-block {
+		max-width: 960px;
+		margin: 0 auto;
+		padding-top: 24px;
+		padding-bottom: 27px;
+		padding-right: 15px;
+		padding-left: 43px;		
+		background-color: #0067c5;
+		font-size: 0;
+	}
+
+	.new {
+		display: block;
+		width: 100px;
+		background-color: #ffffff;
+		color: #f13037;
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 7px 0;
+    	letter-spacing: 2px;
+	}
+
+	.netapp-logo {
+		display: block;
+		margin-top: 50px;
+	}
+
+	.download-description {
+		max-width: 500px;
+		display: inline-block;
+		vertical-align: top;
+
+		p {
+			font-size: 30px;
+			line-height: 41px;
+			color: #ffffff;
+		}
+	}
+
+	.download-form {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 390px;
+		padding: 0 20px;
+
+		h1, span {
+			color: #ffffff;
+			font-size: 18px;
+			line-height: 28px;
+			font-weight: 400;
+			text-align: center;
+			display: block;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+		}
+
+		form {
+			background-color: #1a76cb;
+			border: 3px solid #3482ca;
+			padding: 0 30px;
+		}
+
+		input {
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 10px 15px;
+			font-family: "Open Sans";
+			color: #888888;
+
+			&::-webkit-input-placeholder {
+		      color: #888888;
+		    }
+
+		    &::-moz-input-placeholder {
+		      color: #888888;
+		    }
+
+		    &::-o-input-placeholder {
+		      color: #888888;
+		    }
+		}
+
+		input[type="submit"] {
+			background-color: #f13037;
+			font-size: 18px;
+			font-weight: 700;
+			color: #ffffff;
+			text-transform: uppercase;
+			border: none;
+			margin: 30px 0;
+		}
+
+		select {
+			width: 100%;
+			padding: 10px 15px;
+			font-family: "Open Sans";
+			color: #888888;
+		}
+	}
+}

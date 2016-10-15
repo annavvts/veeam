@@ -1,0 +1,44 @@
+.navigate {
+	border-bottom: 3px solid #e9e9e9;
+
+	.navigate-wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+		font-size: 0;
+	}
+	
+	.navigate-item {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 700;
+		color: #444444;
+		text-transform: uppercase;
+		text-align: center;
+		margin-right: 104px;
+		margin-bottom: 30px;
+		padding-top: 30px;
+
+		&:hover {
+			color: #54b948;
+			border-bottom: 2px solid #54b948;
+			padding-top: 28px;
+		}
+	}
+
+	.download-item {
+		color: #ffffff;
+		background-color: #f13037;
+		width: 292px;
+		margin-right: 0;
+		margin-bottom: 0;
+		padding-bottom: 30px;
+
+		&:hover {
+			color: #ffffff;
+			border: none;
+			padding-top: 30px;
+		}
+	}
+}

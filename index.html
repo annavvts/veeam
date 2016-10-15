@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Veeam Availability</title>
+    <link href="dest/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="main-logo">
+          <img src="img/logo.png" alt="Veeam" width="326" height="55s">
+        </div>
+        <div class="inner-logo">
+        </div>
+      </div>
+    </header>
+    <div class="download" id="download">
+      <div class="download-block">
+        <div class="download-description">
+          <span class="new">New</span>
+          <p><b>Fast backup and quick recovery</b> from NetApp snapshots with <br>Veeam Availability Suite v8</p>
+          <img class="netapp-logo" src="img/netapp.png" alt="NetApp" width="187" height="93">
+        </div>
+        <div class="download-form">
+          <form>
+            <span>Download</span><h1>Veeam Availability Suite v8</h1>
+            <input type="text" name="first-name" placeholder="First Name">
+            <input type="text" name="last-name" placeholder="Last Name">
+            <input type="email" name="business-email" placeholder="Enter business email">
+            <input type="tel" name="phone" placeholder="Enter phone number">
+            <input type="text" name="hypervisor" placeholder="Choose you hypervisor...">
+            <select name="hypervisor-select" id="">
+              <option value="Choose you hypervisor...">Choose you hypervisor...</option>
+            </select>
+            <input type="submit" value="Download">
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    <div class="overview">
+      <div class="overview-wrapper">
+        <figure class="video-block">
+          <img src="img/video-overview.jpg"></img>
+          <figcaption>Watch 3-min video:  Veeam is defining the Availability for the Modern Data Cente</figcaption>
+        </figure>
+        <div class="overview-text">
+          <p><b>Veeam®</b> and <b>NetApp</b> offer the right solution to deliver Availability  for the Modern Data Center™. Veeam’s integration with NetApp helps orchestrate Data ONTAP to create application-consistent backups from NetApp storage snapshots, providing NetApp FAS and FlexArray (V-Series) customers with the ability to create image-based backups as often as needed - even during business hours - with little to no impact on production environments.</p>
+          <div class="links">
+            <a class="product-link" href="#">Product Overview</a>
+            <a class="reasons-link" href="#">Top 10 Reasons to Choose Veeam</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navigate">
+      <div class="navigate-wrapper">
+        <a class="navigate-item" href="#integration">Integration</a>
+        <a class="navigate-item" href="#backup">Backup</a>
+        <a class="navigate-item" href="#recovery">Recovery</a>
+        <a class="navigate-item download-item" href="#download">Download now</a>
+      </div>
+    </div>
+    <section class="integration" id="integration">
+      <h3>Explore the benefits of Veeam integration with NetApp</h3>
+      <p>
+        Veeam’s <b>enterprise-level, near-continuous data protection (near-CDP)</b> delivers the best recovery time and point objectives (RTPO™) for all applications in VMware vSphere environments. The combination of NetApp’s low RPO capabilities and Veeam’s low RTO enablement allows users to:
+      </p>
+      <ul class="integration-list">
+        <li>Create backups from storage snapshots up to <b>20 times faster</b> than competitive offerings</li>
+        <li>Recover individual items or entire VMs quickly and efficiently from <b>NetApp Snapshot®, SnapMirror®</b> and <b>SnapVault®</b> with <b>Veeam Explorer™ for Storage Snapshots</b></li>
+        <li>Improve DR protection by creating instant, secondary backups from storage snapshots</li>
+      </ul>
+      <div class="integration-schemes">
+        <figure>
+          <img src="http://img.veeam.com/product_pages/v8/netapp_2_t.jpg" alt="">
+          <figcaption>Components of a Veeam backup with FAS storager</figcaption>
+        </figure>
+        <figure>
+          <img src="http://img.veeam.com/product_pages/v8/netapp_1_t.jpg" alt="">
+          <figcaption>Veeam Explorer for Storage Snapshots</figcaption>
+        </figure>
+      </div>
+      <p>
+        In addition to fast backups and quick recovery from NetApp Snapshot, SnapMirror and SnapVault, NetApp FAS and FlexArray (V-Series) customers can meet the most stringent RTPO of Tier-1 applications with:
+      </p>
+      <ul>
+        <li><b>Fast, application-consistent recovery points</b> by orchestrating NetApp Data ONTAP to create snapshot only backups</li>
+        <li><b>Reduce data loss</b> by automating the creation of secondary backups from NetApp SnapVault</li>
+        <li><b>Verified protection</b> by automating the testing of backups to guarantee the recoverability of every file,             application and virtual machine (VM)</li>
+        <li><b>A cloud ready platform</b> that enhances data availability by providing an efficient way to get backups off site to a service provider</li>
+      </ul>
+      <figure>
+        <img src="http://img.veeam.com/product_pages/v8/netapp_3.jpg" alt="">
+        <figcaption>Ready for the Cloud</figcaption>
+      </figure>
+      <a class="integration-watch" href="http://fast.wistia.net/embed/iframe/w5k601c6f6?popover=true&ad=in-text-link">Watch video on how Veeam integrates with NetApp</a>
+    </section>
+    <section class="backup" id="backup">
+      <div class="backup-wrapper">
+        <h3>Perform fast backups from NetApp Storage Snapshots</h3>
+        <article class="backup-main">
+          <div class="backup-description">
+            <h5>Dramatically improve vSphere backup</h5>
+            <p>
+              Taking VMware vSphere snapshots can produce a serious burden on virtual machine (VM) performance, and it can take considerable effort by administrators to overcome this technical challenge and meet the required SLAs.
+            </p>
+            <p>
+              Veeam dramatically improves this process, providing built-in integration with your production storage, leveraging storage snapshot functionality to reduce the impact on the environment from vSphere snapshot removal during backup and replication.
+            </p>
+            <p>
+              Don’t be stuck with once-a-day backups for I/O intensive workloads—make backups and replicas as often as every 15 minutes!
+            </p>
+            <a class="backup-video" href="http://fast.wistia.net/embed/iframe/w5k601c6f6?popover=true&ad=in-text-link">Watch video on how Veeam integrates with NetApp</a>
+            <a class="backup-video" href="">Watch video about Veeam solution for HP StoreVirtual VSA</a>
+          </div>
+          <figure>
+            <img src="http://img.veeam.com/product_pages/v8/screenshots/220_san_snapshot_hl.png" width="292" height="270" alt="">
+            <figcaption>A job keeps a VM snapshot for only a brief moment, which results in instant VM snapshot commit</figcaption>
+          </figure>
+        </article>
+        <article class="backup-rpo">
+          <div class="backup-description">
+              <h5>Fast vSphere backups with low RPOs</h5>
+              <p>
+                Storage snapshots can be taken frequently with minimal impact to the production environment, but this can’t be your only backup solution. What if storage itself goes down, or gets corrupted? Even with storage-based replication, you need to take your data out of the single fault domain. This is why many customers prefer to additionally make true backups stored on different storage.
+              </p>
+              <p>
+                Veeam combines best of both worlds with vSphere snapshots for application-consistent backups and storage snapshots for fast recovery point objectives (RPOs). Now you can:
+              </p>
+              <ul>
+                <li>Run backups at any time and frequency, dramatically improving achievable RPOs</li>
+                <li>Speed up the process—back up from storage snapshots up to 20x faster than with competitive solutions</li>
+                <li>Dramatically reduce the impact of backup activities on your production environment</li>
+              </ul>
+              <a class="backup-blog" href="">Read blog post about Veeam and NetApp</a>
+          </div>
+          <figure>
+            <video src=""></video>
+            <figcaption>Veeam Explorer for Storage Snapshots</figcaption>
+          </figure>
+        </article>
+        <article class="backup-how">
+          <div class="backup-description">
+              <h5>How it works</h5>
+              <p>
+                Veeam Backup & Replication works with HP and NetApp storage products to create backups and replicas from storage snapshots in the following way. The backup/replica job:
+              </p>
+              <ol>
+                <li>
+                  Analyzes which VMs in the job have disks on supported storage.
+                </li>
+                <li>
+                  Triggers a vSphere snapshot for all VMs located on the same storage volume. (As a part of a vSphere snapshot, Veeam’s application-aware processing of each VM is performed normally.)
+                </li>
+                <li>
+                  Triggers a snapshot of said storage volume once all VM snapshots have been created.
+                </li>
+                <li>
+                  Retrieves the CBT information for VM snapshots created on step 2.
+                </li>
+                <li>
+                  Immediately triggers the removal of the vSphere snapshots on the production VMs.
+                </li>
+                <li>
+                  Mounts the storage snapshot to one of the backup proxies connected into the storage fabric.
+                </li>
+                <li>
+                  Reads new and changed virtual disk data blocks directly from the storage snapshot and transports them to the backup repository or replica VM.
+                </li>
+                <li>
+                  Triggers the removal storage snapshot once all VMs have been backed up.
+                </li>
+              </ol>
+          </div>
+          <figure>
+            <img src="http://img.veeam.com/product_pages/v8/bfss-scheme-t.jpg" width="292" height="177" alt="">
+            <figcaption>Veeam Explorer for Storage Snapshots</figcaption>
+          </figure>
+          <p>
+              As the result, VMs run off snapshots for the shortest possible time, while jobs obtain data from VM snapshot files preserved in the storage snapshot. As the result, VM snapshots do not get a chance to grow large and can be committed very quickly without overloading production storage with extended merge procedure, as is the case with classic techniques for backing up from VM snapshots.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="recovery" id="recovery">
+      <h3>Enjoy quick granular recovery for NetApp Storage Snapshots</h3>
+      <article class="recovery-restore">
+        <div class="recovery-description">
+          <h5>Restore from a storage snapshot in minutes!</h5>
+          <p>
+            With Veeam Explorer for Storage Snapshots, you can take advantage of the low overhead that periodic SAN snapshots offer for low recovery point objectives (RPOs), and let Veeam Backup & Replication™ automate the whole recovery process for you, bringing you low recovery time objectives (RTOs) as well. You can:
+          </p>
+          <ul>
+            <li>
+              Recover guest OS files (for Windows, Linux, Novell , etc.), application items or an entire VM from a storage snapshot in two minutes or less
+            </li>
+            <li>
+              Restore directly from storage snapshots, eliminating the need for staging and intermediate restores
+            </li>
+            <li>
+              Reduce the time needed to mount snapshots 10 times or more compared to manual processes, lowering your RTOs while avoiding human errors that can occur during critical recovery steps such as mounting snapshots
+            </li>
+          </ul>
+          <p>
+            With Veeam Explorer for Storage Snapshots, you can take advantage of the low overhead that periodic SAN snapshots offer for low recovery point objectives (RPOs), and let Veeam Backup & Replication™ automate the whole recovery process for you, bringing you low recovery time objectives (RTOs) as well. You can:
+          </p>
+          <a class="recovery-video" href="">Watch video on how Veeam integrates with NetApp</a>
+          <a class="recovery-blog" href="">Read blog post about Veeam and NetApp</a>
+        </div>
+        <figure class="screenshot-storage">
+          <img src="http://img.veeam.com/product_pages/v8/screenshots/san_IR.png" width="292" height="177" alt="">
+          <figcaption>Veeam Explorer for Storage Snapshots</figcaption>
+        </figure>
+      </article>
+      <article class="recovery-how">
+        <h5>How it works</h5>
+        <p>
+          Veeam works with HP and NetApp storage products to granular recovery from storage snapshots. Here’s how it works.
+        </p>
+        <figure>
+          <img src="https://go.veeam.com/rs/870-LBG-312/images/veeam-explorer-for-storage-snapshots-diagram.png" alt="">
+          <figcaption>For image description</figcaption>
+        </figure>
+      </article>
+      <article class="recovery-storage">
+        <h5>Supported storage:</h5>
+        <div class="storage-wrapper">
+          <p>
+            For NetApp, all Data ONTAP based storage, including:
+          </p>
+          <ul>
+            <li>
+              NetApp FAS
+            </li>
+            <li>
+              NetApp FlexArray (V-Series)
+            </li>
+            <li>
+              NetApp Data ONTAP Edge VSA
+            </li>
+            <li>
+              IBM N series
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <div class="about">
+      <div class="about-wrapper">
+        <h4>About Veeam Software</h4>
+        <p>
+          Veeam® enables the Always-On Business™ by providing solutions that deliver Availability for the Modern Data Center™, which provides recovery time and point objectives (RTPO™) of less than 15 minutes for all applications and data. Veeam Backup & Replication™ leverages technologies that enable the modern data center, including VMware vSphere, Microsoft Hyper-V, NetApp storage, and HP 3PAR StoreServ and StoreVirtual Storage, to help organizations meet RTPOs, save time, mitigate risks, and dramatically reduce capital and operational costs. Veeam Availability Suite™ provides all of the benefits and features of Veeam Backup & Replication along with advanced monitoring, reporting and capacity planning for the backup infrastructure.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="copyright">
+          <span>Copyright © 2015 Veeam® Software.</span>
+          <span>Privacy policy & Cookies</span>
+        </div>
+        <div class="footer-links">
+          <a class="link-item" href="#">White Papers</a>
+          <a class="link-item" href="#">Webinars</a>
+          <a class="link-item" href="#">Product demos</a>
+          <a class="link-item" href="#">Webinars</a>
+          <a class="link-item" href="#">Veeam Live</a>
+        </div>
+        <div class="footer-social">
+          <a class="social-item facebook" href="#">Facebook</a>
+          <a class="social-item twitter" href="#">Twitter</a>
+          <a class="social-item linkedin" href="#">LinkedIn</a>
+          <a class="social-item youtube" href="#">YouTube</a>
+        </div>
+      </div>
+      
+    </footer>
+
+
+    
+  </body>
+</html>

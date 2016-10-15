@@ -1,0 +1,627 @@
+
+
+*{
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-weight: 400;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+ul {
+   padding-left: 0;
+   margin: 0;
+   list-style: disc;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+b {
+    font-weight: 700;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  border-bottom: 4px solid #0aab0a;
+}
+
+header .header-wrapper{
+  margin: 0 auto;
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .main-logo{
+  padding-left: calc(50% - 480px);
+}
+
+header .inner-logo{
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 15px;
+  position: relative;
+  height: 78px;
+  padding-right: calc(50% - 480px);
+  background-color: #0067c5;
+}
+
+header .inner-logo:before{
+  content: "";
+  position: absolute;
+  background-image: url("../img/inner-logo.png");
+  background-repeat: no-repeat;
+  width: 215px;
+  height: 78px;
+  right: 100%;
+  display: block;
+}
+.download{
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  padding-top: 27px;
+  padding-bottom: 60px;
+}
+.download .download-block{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 27px;
+  padding-right: 15px;
+  padding-left: 43px;
+  background-color: #0067c5;
+  font-size: 0;
+}
+.download .new{
+  display: block;
+  width: 100px;
+  background-color: #ffffff;
+  color: #f13037;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 7px 0;
+  letter-spacing: 2px;
+}
+.download .netapp-logo{
+  display: block;
+  margin-top: 50px;
+}
+.download .download-description{
+  max-width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+.download .download-description p{
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+.download .download-form{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 390px;
+  padding: 0 20px;
+}
+.download .download-form h1, .download .download-form span{
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+.download .download-form h1{
+  margin-bottom: 20px;
+}
+.download .download-form form{
+  background-color: #1a76cb;
+  border: 3px solid #3482ca;
+  padding: 0 30px;
+}
+.download .download-form input{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-family: "Open Sans";
+  color: #888888;
+}
+.download .download-form input::-webkit-input-placeholder{
+  color: #888888;
+}
+.download .download-form input::-moz-input-placeholder{
+  color: #888888;
+}
+.download .download-form input::-o-input-placeholder{
+  color: #888888;
+}
+.download .download-form input[type="submit"]{
+  background-color: #f13037;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  margin: 30px 0;
+}
+.download .download-form select{
+  width: 100%;
+  padding: 10px 15px;
+  font-family: "Open Sans";
+  color: #888888;
+}
+.overview{
+  background-color: #e5e9ee;
+  padding: 60px 0;
+}
+.overview .overview-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.overview .video-block{
+  display: inline-block;
+  vertical-align: middle;
+}
+.overview figcaption{
+  font-size: 13px;
+  line-height: 18px;
+  color: #666666;
+  text-align: center;
+  max-width: 235px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.overview .overview-text{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 520px;
+  margin-left: 40px;
+}
+.overview .overview-text p{
+  font-size: 18px;
+  line-height: 28px;
+}
+.overview .product-link, .overview .reasons-link{
+  font-family: "Droid Sans";
+  font-size: 14px;
+  line-height: 28px;
+  color: #1091c7;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 40px;
+  margin-right: 35px;
+  position: relative;
+}
+.overview .product-link:before, .overview .reasons-link:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -103px -10px;
+  width: 31px;
+  height: 32px;
+  top: -3px;
+  left: 0;
+}
+.navigate{
+  border-bottom: 3px solid #e9e9e9;
+}
+.navigate .navigate-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.navigate .navigate-item{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #444444;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 104px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.navigate .navigate-item:hover{
+  color: #54b948;
+  border-bottom: 2px solid #54b948;
+  padding-top: 28px;
+}
+.navigate .download-item{
+  color: #ffffff;
+  background-color: #f13037;
+  width: 292px;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.navigate .download-item:hover{
+  color: #ffffff;
+  border: none;
+  padding-top: 30px;
+}
+.integration{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+.integration h3{
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 44px;
+  margin-bottom: 39px;
+}
+.integration p{
+  font-size: 14px;
+  line-height: 21px;
+}
+.integration ul{
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.integration li{
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 430px;
+  margin-bottom: 6px;
+  margin-right: 35px;
+}
+.integration figure{
+  margin-top: 40px;
+}
+.integration figcaption{
+  font-family: "Droid Sans";
+  color: #666666;
+  font-size: 13px;
+  line-height: 18px;
+}
+.integration .integration-list li{
+  margin-bottom: 0;
+}
+.integration .integration-schemes{
+  display: flex;
+  justify-content: center;
+}
+.integration .integration-schemes img{
+  display: block;
+  margin-bottom: 2px;
+}
+.integration .integration-schemes figcaption{
+  text-align: center;
+  max-width: 225px;
+  display: block;
+  margin: 0 auto;
+}
+.integration .integration-watch{
+  font-size: 14px;
+  line-height: 21px;
+  color: #1091c7;
+  padding-left: 50px;
+  position: relative;
+}
+.integration .integration-watch:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -103px -62px;
+  width: 32px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+}
+.backup{
+  background-color: #e5e9ee;
+}
+.backup .backup-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+.backup article{
+  padding-top: 24px;
+  padding-bottom: 58px;
+  border-top: 2px solid #cfd5dc;
+  font-size: 0;
+}
+.backup article:first-of-type{
+  border-top: none;
+}
+.backup h3{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.backup h5{
+  font-size: 14px;
+  line-height: 36px;
+}
+.backup p{
+  font-size: 14px;
+  line-height: 21px;
+}
+.backup ul, .backup ol{
+  padding-left: 20px;
+}
+.backup ul li{
+  margin-top: 15px;
+}
+.backup ol li{
+  margin-top: 25px;
+}
+.backup li{
+  font-size: 14px;
+  line-height: 21px;
+}
+.backup figure{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.backup figcaption{
+  font-family: "Droid Sans";
+  color: #5e5e5e;
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+  margin-top: 20px;
+  max-width: 275px;
+}
+.backup .backup-description{
+  max-width: 580px;
+  display: inline-block;
+  vertical-align: top;
+}
+.backup .backup-video, .backup .backup-blog{
+  font-size: 14px;
+  line-height: 21px;
+  color: #1091c7;
+  display: block;
+  margin-top: 19px;
+  padding-left: 50px;
+  position: relative;
+}
+.backup .backup-video:hover, .backup .backup-blog:hover{
+  text-decoration: underline;
+}
+.backup .backup-blog{}
+.backup .backup-blog:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -10px -10px;
+  width: 32px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+}
+.backup .backup-video{}
+.backup .backup-video:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -103px -62px;
+  width: 32px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+}
+.backup .backup-video:nth-child(2){
+  margin-top: 19px;
+}
+.recovery{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+.recovery article{
+  padding-top: 24px;
+  padding-bottom: 60px;
+  border-top: 2px solid #cfd5dc;
+  font-size: 0;
+}
+.recovery article:first-of-type{
+  border-top: none;
+}
+.recovery h3{
+  font-size: 24px;
+  line-height: 36px;
+}
+.recovery h5{
+  font-size: 14px;
+  line-height: 36px;
+}
+.recovery p{
+  font-size: 14px;
+  line-height: 21px;
+  width: 40%;
+  margin: 0;
+}
+.recovery ul{
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 20px;
+  list-style-position: inside;
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+}
+.recovery figcaption{
+  font-family: "Droid Sans";
+  color: #5e5e5e;
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+  margin-top: 20px;
+}
+.recovery .recovery-description{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 580px;
+}
+.recovery .screenshot-storage{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.recovery .recovery-video, .recovery .recovery-blog{
+  font-size: 14px;
+  line-height: 21px;
+  color: #1091c7;
+  display: block;
+  margin-top: 14px;
+  padding-left: 50px;
+  position: relative;
+}
+.recovery .recovery-video:hover, .recovery .recovery-blog:hover{
+  text-decoration: underline;
+}
+.recovery .recovery-video{
+  margin-top: 19px;
+}
+.recovery .recovery-video:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -103px -62px;
+  width: 32px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+}
+.recovery .recovery-blog{}
+.recovery .recovery-blog:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -10px -10px;
+  width: 32px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+}
+.recovery .storage-wrapper{
+  display: flex;
+}
+.about{
+  background-color: #e5e9ee;
+}
+.about .about-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+.about h4{
+  font-size: 24px;
+  line-height: 36px;
+}
+.about p{
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 905px;
+}
+footer{
+  background-color: #393939;
+}
+footer .footer-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 0;
+  padding: 28px 0;
+}
+footer .copyright{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 15px;
+}
+footer .copyright span{
+  font-size: 12px;
+  line-height: 21px;
+  display: block;
+}
+footer .footer-links{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 15px;
+  column-count: 2;
+  column-gap: 40px;
+  margin-left: 15px;
+  padding-left: 46px;
+  border-left: 1px solid #707070;
+}
+footer .footer-social{
+  display: inline-block;
+  vertical-align: top;
+  column-count: 2;
+  column-gap: 50px;
+  margin-left: 40px;
+  padding-left: 70px;
+  border-left: 1px solid #707070;
+}
+footer .footer-social .facebook, footer .footer-social .twitter, footer .footer-social .linkedin, footer .footer-social .youtube{
+  position: relative;
+}
+footer .footer-social .facebook:before, footer .footer-social .twitter:before, footer .footer-social .linkedin:before, footer .footer-social .youtube:before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/spritesheet.png");
+  background-position: -62px -10px;
+  width: 21px;
+  height: 21px;
+  top: 4px;
+  left: 8px;
+}
+footer .footer-social .twitter{}
+footer .footer-social .twitter:before{
+  background-position: -10px -62px;
+  width: 21px;
+  height: 20px;
+}
+footer .footer-social .linkedin{}
+footer .footer-social .linkedin:before{
+  background-position: -62px -51px;
+  width: 21px;
+  height: 21px;
+}
+footer .footer-social .youtube{}
+footer .footer-social .youtube:before{
+  background-position: -10px -107px;
+  width: 21px;
+  height: 20px;
+}
+footer .link-item, footer .social-item{
+  font-size: 12px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+}
+footer .social-item{
+  padding-left: 45px;
+}

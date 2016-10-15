@@ -1,0 +1,63 @@
+.overview {
+	background-color: #e5e9ee;
+	padding: 60px 0;
+
+	.overview-wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+		font-size: 0;
+	}
+
+	.video-block {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	figcaption {
+		font-size: 13px;
+		line-height: 18px;
+		color: #666666;
+		text-align: center;
+		max-width: 235px;
+		display: block;
+		margin: 0 auto;
+		margin-top: 12px;
+	}
+
+	.overview-text {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 520px;
+		margin-left: 40px;
+
+		p {
+			font-size: 18px;
+			line-height: 28px;
+		}
+	}
+
+
+	.product-link, .reasons-link {
+		font-family: "Droid Sans";
+		font-size: 14px;
+		line-height: 28px;
+		color: #1091c7;
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 40px;
+		margin-right: 35px;
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/spritesheet.png");
+			background-position: -103px -10px;
+			width: 31px;
+    		height: 32px;
+    		top: -3px;
+    		left: 0;
+		}
+	}
+
+}

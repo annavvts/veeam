@@ -1,0 +1,113 @@
+.recovery {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 44px;
+	
+	article {
+		padding-top: 24px;
+		padding-bottom: 60px;
+		border-top: 2px solid #cfd5dc;
+		font-size: 0;
+
+		&:first-of-type {
+			border-top: none;
+		}
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	h5 {
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 21px;
+		width: 40%;
+		margin: 0;
+	}
+
+	ul {
+		font-size: 14px;
+		line-height: 21px;
+		padding-left: 20px;
+		list-style-position: inside;
+		column-count: 2;
+    	column-gap: 20px;
+    	column-fill: auto;
+	}
+
+	figcaption {
+		font-family: "Droid Sans";
+		color: #5e5e5e;
+		font-size: 13px;
+		line-height: 18px;
+		display: block;
+		margin-top: 20px;
+	}
+
+	.recovery-description {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 580px;
+	}
+
+	.screenshot-storage {
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	.recovery-video, .recovery-blog {
+		font-size: 14px;
+		line-height: 21px;
+		color: #1091c7;
+		display: block;
+		margin-top: 14px;
+		padding-left: 50px;
+		position: relative;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.recovery-video {
+		margin-top: 19px;
+		
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/spritesheet.png");
+			background-position: -103px -62px;
+			width: 32px;
+    		height: 25px;
+    		top: -3px;
+    		left: 0;
+		}
+	}
+
+	.recovery-blog {
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/spritesheet.png");
+			background-position: -10px -10px;
+			width: 32px;
+    		height: 25px;
+    		top: -3px;
+    		left: 0;
+		}
+	}
+
+	.storage-wrapper {
+		display: flex;
+	}
+}
+

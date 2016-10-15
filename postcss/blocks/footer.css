@@ -1,0 +1,98 @@
+footer {
+	background-color: #393939;
+
+	.footer-wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+		color: #ffffff;
+		font-size: 0;
+		padding: 28px 0;
+	}
+
+	.copyright {
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 15px;
+
+		span {
+			font-size: 12px;
+			line-height: 21px;
+			display: block;
+		}
+	}
+
+	.footer-links {
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 15px;
+		column-count: 2;
+		column-gap: 40px;
+		margin-left: 15px;
+		padding-left: 46px;
+		border-left: 1px solid #707070;
+	}
+
+	.footer-social {
+		display: inline-block;
+		vertical-align: top;
+		column-count: 2;
+		column-gap: 50px;
+		margin-left: 40px;
+		padding-left: 70px;
+		border-left: 1px solid #707070;
+
+		.facebook, .twitter, .linkedin, .youtube {
+			position: relative;
+
+			&:before {
+				position: absolute;
+				content: "";
+				background-image: url("../img/spritesheet.png");
+				background-position: -62px -10px;
+				width: 21px;
+				height: 21px;
+				top: 4px;
+    			left: 8px;
+			}
+		}
+
+		.twitter {
+			&:before {
+				background-position: -10px -62px;
+				width: 21px;
+				height: 20px;
+			}
+		}
+
+		.linkedin {
+			&:before {
+				background-position: -62px -51px;
+				width: 21px;
+				height: 21px;
+			}
+		}
+
+		.youtube {
+			&:before {
+				background-position: -10px -107px;
+				width: 21px;
+				height: 20px;
+			}
+		}
+
+
+	}
+
+	.link-item, .social-item {
+		font-size: 12px;
+		line-height: 30px;
+		color: #ffffff;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	.social-item {
+		padding-left: 45px;
+	}
+	
+}
