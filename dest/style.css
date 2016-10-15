@@ -458,17 +458,11 @@ header .inner-logo:before{
 .recovery p{
   font-size: 14px;
   line-height: 21px;
-  width: 40%;
-  margin: 0;
 }
 .recovery ul{
   font-size: 14px;
   line-height: 21px;
   padding-left: 20px;
-  list-style-position: inside;
-  column-count: 2;
-  column-gap: 20px;
-  column-fill: auto;
 }
 .recovery figcaption{
   font-family: "Droid Sans";
@@ -526,6 +520,16 @@ header .inner-logo:before{
 }
 .recovery .storage-wrapper{
   display: flex;
+}
+.recovery .storage-list{
+  list-style-position: inside;
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+}
+.recovery .storage-text{
+  width: 40%;
+  margin: 0;
 }
 .about{
   background-color: #e5e9ee;
